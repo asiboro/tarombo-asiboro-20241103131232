@@ -1,0 +1,197 @@
+{
+  "families": [
+    {
+      "childRefs": [
+        {
+          "ref": "I2*e77a2c54-2682-4a53-9c5d-ad90267c0e6a"
+        },
+        {
+          "ref": "I3*56e5fc11-500c-467a-82e8-4b6c220e5b6f"
+        }
+      ],
+      "husbandRefs": [
+        {
+          "ref": "I1*8dd0af87-1372-44e3-9329-0e42f2bf34b2"
+        }
+      ],
+      "id": "F1*46f7694f-981b-4412-b470-55103840681a"
+    },
+    {
+      "childRefs": [
+        {
+          "ref": "I4*63cdb62d-ba1a-466e-ae83-367c2143ace3"
+        }
+      ],
+      "husbandRefs": [
+        {
+          "ref": "I1*19c5211e-c6a1-4af2-b7ae-55cc098b2fbc"
+        }
+      ],
+      "id": "F2*1dcb3541-f025-41f1-8713-308f394968f9",
+      "wifeRefs": [
+        {
+          "ref": "I3*a4b8f606-56f2-49e5-a590-5ae8e9500912"
+        }
+      ]
+    },
+    {
+      "childRefs": [
+        {
+          "ref": "I5*d80bd1af-d30d-4636-bd19-a0030fa096b8"
+        }
+      ],
+      "husbandRefs": [
+        {
+          "ref": "I4*19b884d6-6fa5-43ad-8a0c-0ae49b35f95d"
+        }
+      ],
+      "id": "F3*b8db33a4-3b59-404d-aa21-1a589e2d2061"
+    }
+  ],
+  "head": {
+    "charset": {
+      "value": "UTF-8"
+    },
+    "date": {
+      "time": "12:13:48",
+      "value": "3 NOV 2024"
+    },
+    "file": "13.json",
+    "gedc": {
+      "form": "LINEAGE-LINKED",
+      "vers": "5.5.1"
+    },
+    "lang": "Japanese",
+    "sour": {
+      "name": "Tarombo",
+      "value": "TAROMBO",
+      "vers": "0.5.5 (0b354a0)"
+    }
+  },
+  "people": [
+    {
+      "fams": [
+        {
+          "ref": "F1*46f7694f-981b-4412-b470-55103840681a"
+        }
+      ],
+      "id": "I1*8dd0af87-1372-44e3-9329-0e42f2bf34b2",
+      "names": [
+        {
+          "value": "john //"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "famc": [
+        {
+          "ref": "F1*46f7694f-981b-4412-b470-55103840681a"
+        }
+      ],
+      "id": "I2*e77a2c54-2682-4a53-9c5d-ad90267c0e6a",
+      "names": [
+        {
+          "value": "james //"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "famc": [
+        {
+          "ref": "F1*46f7694f-981b-4412-b470-55103840681a"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F2*1dcb3541-f025-41f1-8713-308f394968f9"
+        }
+      ],
+      "id": "I3*56e5fc11-500c-467a-82e8-4b6c220e5b6f",
+      "names": [
+        {
+          "value": "James //"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "famc": [
+        {
+          "ref": "F1*8d798922-8f36-4eb2-9f8f-c0fb17cff17d"
+        }
+      ],
+      "id": "I4*63cdb62d-ba1a-466e-ae83-367c2143ace3",
+      "names": [
+        {
+          "value": "matthew //"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "famc": [
+        {
+          "ref": "F2*e08c4cb6-01fd-4728-9f12-6c3d39dc8f49"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F2*1dcb3541-f025-41f1-8713-308f394968f9"
+        }
+      ],
+      "id": "I5*d80bd1af-d30d-4636-bd19-a0030fa096b8",
+      "names": [
+        {
+          "value": "mary //"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "F"
+        }
+      ]
+    },
+    {
+      "fams": [
+        {
+          "ref": "F3*b8db33a4-3b59-404d-aa21-1a589e2d2061"
+        }
+      ],
+      "id": "I6*1473151c-0fff-4d6b-ab51-33e17506b4a4",
+      "names": [
+        {
+          "value": "mary\u0027s father //"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "M"
+        }
+      ]
+    }
+  ]
+}
